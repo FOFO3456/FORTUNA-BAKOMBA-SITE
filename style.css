@@ -1,0 +1,45 @@
+
+
+body{
+    margin:0 auto;
+    padding: 0;
+}
+/* tete de page */
+header.header{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+
+}
+header.header img {
+    width:  150px;
+    margin-top: 0px;
+}
+section.top-page{
+    background: url("logo freak.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding: 25px;
+}
+/* page de bienvenue(landing page) */
+.big-title{
+    color: rgb(117, 11, 118);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    font-size: 80px;
+    padding:20px 50px; 
+}
+/* menu de navigation */
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    background-color: white;
+    width: 400px;
+    margin-left: 30px;
+}
+nav.nav li{
+    color: blueviolet;
+}
+
